@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://hospital.example.org/identifiers",
+      "value": "MRN987654"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Smith",
+      "given": [
+        "Jane",
+        "Marie"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1990-08-22",
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "123 Main Street"
+      ],
+      "city": "Austin",
+      "state": "TX",
+      "postalCode": "78701",
+      "country": "USA"
+    }
+  ]
+}
